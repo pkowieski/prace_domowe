@@ -7,6 +7,7 @@ i w którym każdą liczbę można zapisać za pomocą dwóch cyfr: 0 i 1.
 Zamiana liczby dziesiętnej na binarną polega na cyklicznym dzieleniu z resztą, gdzie dzielną jest liczba dziesiętna, a dzielnikiem cyfra 2. Wynik kolejnego dzielenia ponownie dzielimy przez 2 i tak aż do uzyskania 0. Liczba binarna powstaje na bazie reszt zapisanych w odwrotnej kolejności.
 
 np. zamiana liczby 173
+
 ![przyklad](http://www.edu.godula.com/_liczby/bintodec6.gif)
 
 Aby przeliczyć liczbę z systemu dwójkowego na dziesiętny musimy skorzystać z poniższego wzoru:
@@ -33,13 +34,17 @@ Aby zamienić liczbę z systemu dwójkowego na szesnastkowy wystarczy ją podzie
 
 ![tabelka](http://www.algorytm.edu.pl/images/hexcyfry.gif)
 
-*Przykład:
+>Przykład:
 
 Konwertujemy liczbę dwójkową na szesnastkową: 1110101000101010111101010101
 
  1110  	 1010  	 0010  	 1010  	 1111  	 0101  	 0101 
   E 	  A 	  2 	  A 	  F 	  5 	  5
 	
-1110101000101010111101010101(2) = EA2AF55(16)*
+1110101000101010111101010101(2) = EA2AF55(16)>
+
+Aby zamienić liczbę z systemu szesnastkowego na dwójkowy postępujemy odwrótnie. Każdą cyfrę szesnastkową zastępujemy grupą 4 bitów wg tabelki konwersji. Grupy łączymy w całość otrzymując odpowiednik dwójkowy wyjściowej liczby szesnastkowej.
+
+
 
 
