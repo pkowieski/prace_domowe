@@ -75,8 +75,8 @@ Jeżeli podamy mniej argumentów niż kodów formatujących, to wynik działania
 * "+"   Liczba zawsze poprzedzana znakiem + lub -. Domyślnie: znak + jest pomijany.
 * "spacja"   Liczby dodatnie poprzedzane są spacją. Domyślnie: nie ma żadnych odstępów.
 * "#"
- dla typów o, x, X drukowany jest odpowiednio przedrostek O, Ox, OX;
- dla typów e, E, f wymusza drukowanie kropki dziesiętnej;
+ dla typów o, x, X - drukowany jest odpowiednio przedrostek O, Ox, OX;
+ dla typów e, E, f - wymusza drukowanie kropki dziesiętnej;
  dla typów g i G - drukuje kropkę dziesiętną i wszystkie nieznaczące zera.
 
 **szerokość** - Minimalna liczba znaków użytych do zapisu. Liczby krótsze uzupełniane są do podanej szerokości spacjami z lewej strony. Jeżeli szerokość podamy w formie 0n, to uzupełnia z lewej strony zerami. Jeżeli liczba jest dłuższa od pola szerokość, to będzie miała przydzielona niezbędną ilość znaków, aby wyświetliła się cała, niezależnie od wartości pola szerokość
