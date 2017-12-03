@@ -34,14 +34,13 @@ Aby zamienić liczbę z systemu dwójkowego na szesnastkowy wystarczy ją podzie
 
 ![tabelka](http://www.algorytm.edu.pl/images/hexcyfry.gif)
 
-*Przykład:
+>Przykład:
+>Konwertujemy liczbę dwójkową na szesnastkową: 1110101000101010111101010101
 
-Konwertujemy liczbę dwójkową na szesnastkową: 1110101000101010111101010101
-
- 1110  	 1010  	 0010  	 1010  	 1111  	 0101  	 0101 
-  E 	  A 	  2 	  A 	  F 	  5 	  5
+> 1110   1010   0010   1010   1111   0101   0101 
+>  E 	  A  	 2 	A      F      5      5
 	
-*1110101000101010111101010101(2) = EA2AF55(16)
+>1110101000101010111101010101(2) = EA2AF55(16)
 
 Aby zamienić liczbę z systemu szesnastkowego na dwójkowy postępujemy odwrótnie. Każdą cyfrę szesnastkową zastępujemy grupą 4 bitów wg tabelki konwersji. Grupy łączymy w całość otrzymując odpowiednik dwójkowy wyjściowej liczby szesnastkowej.
 
