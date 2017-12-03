@@ -36,8 +36,8 @@ Aby zamienić liczbę z systemu dwójkowego na szesnastkowy wystarczy ją podzie
 
 *Przykład: Konwertujemy liczbę dwójkową na szesnastkową: 1110101000101010111101010101*
 
- **1110   1010   0010   1010   1111   0101   0101** 
-  **E 	   A  	  2 	 A      F      5      5**
+1110   1010   0010   1010   1111   0101   0101
+ E 	A      2      A      F      5      5
 	
  **1110101000101010111101010101(2) = EA2AF55(16)**
 
