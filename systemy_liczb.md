@@ -1,5 +1,4 @@
 System dwójkowy
-
 ========================
 
 Dwójkowy system liczbowy, binarny system liczbowy, mat. pozycyjny system liczbowy, którego podstawą jest liczba 2
@@ -9,7 +8,6 @@ Zamiana liczby dziesiętnej na binarną polega na cyklicznym dzieleniu z resztą
 
 
 System ósemkowy
-
 ===============
 
 System ósemkowy to pozycyjny system liczbowy, w którym podstawą jak nazwa wskazuje jest liczba 8. Liczby w tym systemie zapisuje się przy pomocy ośmiu kolejnych cyfr: 0, 1, 2, 3, 4, 5, 6, 7.
@@ -18,7 +16,6 @@ Zamiana liczby dziesiętnej na ósemkową polega na cyklicznym dzieleniu z reszt
 
 
 System szesnastkowy
-
 ===================
 
 Szesnastkowy system liczbowy znany również pod nazwą system heksadecymalny – pozycyjny system liczbowy, w którym podstawą jest liczba 16. Do zapisu liczb w tym systemie potrzebne jest szesnaście znaków (cyfr szesnastkowych).
