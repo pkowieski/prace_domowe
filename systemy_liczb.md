@@ -6,6 +6,9 @@ i w którym każdą liczbę można zapisać za pomocą dwóch cyfr: 0 i 1.
 
 Zamiana liczby dziesiętnej na binarną polega na cyklicznym dzieleniu z resztą, gdzie dzielną jest liczba dziesiętna, a dzielnikiem cyfra 2. Wynik kolejnego dzielenia ponownie dzielimy przez 2 i tak aż do uzyskania 0. Liczba binarna powstaje na bazie reszt zapisanych w odwrotnej kolejności.
 
+Aby przeliczyć liczbę z systemu dwójkowego na dziesiętny musimy skorzystać z poniższego wzoru:
+!(http://www.edu.godula.com/_liczby/bintodec.gif)
+
 
 System ósemkowy
 ===============
