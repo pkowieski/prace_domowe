@@ -70,13 +70,14 @@ Jeżeli podamy mniej argumentów niż kodów formatujących, to wynik działania
 *Każda specyfikacja musi zaczynać się od znaku % i zawierać co najmniej typ. Pozostałe pola specyfikacji formatu są opcjonalne. Wszystkie pola formatu mają stałą pozycję w łańcuchu formatującym: można je opuścić, ale jeżeli występują, to muszą byc podane w kolejności takiej, jak w powyższym zapisie.*
 
 **znacznik** - Jeden lub więcej znaków określających wyrównanie, zapis znaku liczby i kropki dziesiętnej:
-* -   Wyrównanie wyniku do lewej strony z uzupełnieniem z prawej spacjami. Domyślnie wynik jest wyrównywany do prawej i uzupełniany z lewej spacjami lub zerami.
-* +   Liczba zawsze poprzedzana znakiem + lub -. Domyślnie: znak + jest pomijany.
-* spacja   Liczby dodatnie poprzedzane są spacją. Domyślnie: nie ma żadnych odstępów.
-* #
-- dla typów o, x, X drukowany jest odpowiednio przedrostek O, Ox, OX;
-- dla typów e, E, f wymusza drukowanie kropki dziesiętnej;
-- dla typów g i G - drukuje kropkę dziesiętną i wszystkie nieznaczące zera.
+
+* "-"   Wyrównanie wyniku do lewej strony z uzupełnieniem z prawej spacjami. Domyślnie wynik jest wyrównywany do prawej i uzupełniany z lewej spacjami lub zerami.
+* "+"   Liczba zawsze poprzedzana znakiem + lub -. Domyślnie: znak + jest pomijany.
+* "spacja"   Liczby dodatnie poprzedzane są spacją. Domyślnie: nie ma żadnych odstępów.
+* "#"
+ dla typów o, x, X drukowany jest odpowiednio przedrostek O, Ox, OX;
+ dla typów e, E, f wymusza drukowanie kropki dziesiętnej;
+ dla typów g i G - drukuje kropkę dziesiętną i wszystkie nieznaczące zera.
 
 **szerokość** - Minimalna liczba znaków użytych do zapisu. Liczby krótsze uzupełniane są do podanej szerokości spacjami z lewej strony. Jeżeli szerokość podamy w formie 0n, to uzupełnia z lewej strony zerami. Jeżeli liczba jest dłuższa od pola szerokość, to będzie miała przydzielona niezbędną ilość znaków, aby wyświetliła się cała, niezależnie od wartości pola szerokość
 
