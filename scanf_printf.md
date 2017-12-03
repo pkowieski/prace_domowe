@@ -18,12 +18,16 @@ Wczytywanie kolejnego pola kończy się po napotkaniu: znaku Enter, spacji, znak
 *Każda specyfikacja musi zaczynać się od znaku % i zawierać co najmniej typ. Pozostałe pola specyfikacji formatu są opcjonalne. Wszystkie pola formatu mają stałą pozycję w łańcuchu formatującym: można je opuścić, ale jeżeli występują, to muszą być podane w kolejności takiej, jak w powyższym zapisie.*
 
 Opis
+
 > * - Znaki są odczytywane zgodnie z formatem, ale nie są zapamiętywane. Dla takiej specyfikacji nie ma potrzeby podawania zmiennej, w której ma on być umieszczony. Pole używane do odczytania danych z pliku z pominięciem niektórych informacji.
+
 > szerokość - Maksymalna ilość znaków, która ma być odczytana dla wyliczenia wartości zmiennej.
+
 > h|l|L - Modyfikacja domyślnych wartości dla pola typ:
-*h 	- podajemy dla typów całkowitych (d, i, o, u, x, X), aby zaznaczyć, że parametr jest liczbą typu short int
-*l 	- podajemy dla typów całkowitych (d, i, o, u, x, X), aby zaznaczyć, że parametr jest liczbą typu long int
-*L 	- podajemy dla typów rzeczywistych (e, E, f, g, G), aby zaznaczyć, że parametr jest liczbą typu long double
+* h 	- podajemy dla typów całkowitych (d, i, o, u, x, X), aby zaznaczyć, że parametr jest liczbą typu short int
+* l 	- podajemy dla typów całkowitych (d, i, o, u, x, X), aby zaznaczyć, że parametr jest liczbą typu long int
+* L 	- podajemy dla typów rzeczywistych (e, E, f, g, G), aby zaznaczyć, że parametr jest liczbą typu long double
+
 > typ - Typ konwersji argumentu:
     Liczby:
     d - całkowita liczba dziesiętna ze znakiem (int *arg)
