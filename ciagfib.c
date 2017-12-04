@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-unsigned int fib(int n)
+	int fib(int n)
 {
 	if(n == 0) return 0;
 	if(n == 1) return 1;
@@ -10,12 +10,17 @@ unsigned int fib(int n)
 
 int main()
 {
+
 	int n;
-    	printf("Podaj numer wyrazu  wyrazow ciągu Fibonacciego, który mam obliczyć: \n");
+	char liczdalej;
+	do
+	{
+    	printf("Podaj numer wyrazu ciągu Fibonacciego, który mam obliczyć: \n");
 	scanf("%d", &n);
-
-       	printf("\n\nWartosc numeru wyrazu, ktory podales wynosi = %d\n", fib(n));
-
-
+	printf("\nWartosc numeru wyrazu, ktory podales wynosi = %d\n", fib(n));
+	printf("Czy liczyc dalej?? Jesli tak wcisnij - t\n");
+	scanf(" %c",&liczdalej);
+	}
+	while(liczdalej=='t');
 	return(0);
 }
