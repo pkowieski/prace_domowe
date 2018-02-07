@@ -1,3 +1,6 @@
+// Pawel Kowieski
+// Informatyka grupa 2
+	
 #include <stdio.h>
 
 int fib(int n)
@@ -23,3 +26,4 @@ int main()
 	while(liczdalej=='t');
 	return(0);
 }
+

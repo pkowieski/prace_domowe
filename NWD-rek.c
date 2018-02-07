@@ -1,3 +1,6 @@
+// Pawel Kowieski
+// Informatyka grupa 2
+	
 #include <stdio.h>
 
 int nwd(int a,int b)
@@ -19,3 +22,4 @@ int main()
 	printf("NWD = %d\n",nwd(a,b));
 	return 0;
 }
+

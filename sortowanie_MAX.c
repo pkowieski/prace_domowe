@@ -1,3 +1,6 @@
+// Pawel Kowieski
+// Informatyka grupa 2
+	
 #include <stdio.h>
 
 #define ROZMIAR 10

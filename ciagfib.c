@@ -1,3 +1,6 @@
+// Pawel Kowieski
+// Informatyka grupa 2
+	
 #include <stdio.h>
 
 int main(){
@@ -17,3 +20,4 @@ int main(){
 	}
 	return 0;
 }
+
