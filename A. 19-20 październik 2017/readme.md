@@ -3,7 +3,7 @@
 
 ```sh
 $ cd Pulpit		# przejście do folderu (katalogu) "Pulpit"
-$ mkdir pierwsze__repozytorium		# utworzenie folderu "pierwsze_repozytorium"
+$ mkdir pierwsze-repozytorium		# utworzenie folderu "pierwsze-repozytorium"
 
 
 ##### 2. Edycja plików projektu
@@ -12,6 +12,7 @@ $ mkdir pierwsze__repozytorium		# utworzenie folderu "pierwsze_repozytorium"
 $ touch test.txt	# stworzenie pustego pliku test.txt
 $ nano test.txt		# edycja pliku test.txt edytorem tekstu "nano"
 ```
+
 ##### 3. Instalacja i inicjalizacja systemu kontroli wersji "git"
 
 ```sh
