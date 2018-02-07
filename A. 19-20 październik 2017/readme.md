@@ -4,7 +4,7 @@
 ```sh
 $ cd Pulpit		# przejście do folderu (katalogu) "Pulpit"
 $ mkdir pierwsze-repozytorium		# utworzenie folderu "pierwsze-repozytorium"
-
+```
 
 ##### 2. Edycja plików projektu
 
